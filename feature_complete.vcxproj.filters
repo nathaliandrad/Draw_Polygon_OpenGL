@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Assets">
+      <UniqueIdentifier>{2b645ae9-0775-4eb4-b7c0-b97f72af244d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Meshes">
+      <UniqueIdentifier>{a748dd15-1f78-4852-b47b-d290baff025b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Shader Programs">
+      <UniqueIdentifier>{619513ae-34f5-4f77-9d0c-73cbfa694eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game_Objects">
+      <UniqueIdentifier>{7de47df4-760b-4f67-96a5-ad0553315132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{e46fd87e-70c1-480a-bbd1-68a1a2a0bf2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Shaders">
+      <UniqueIdentifier>{4d2cf786-095e-4553-bee3-b5bd950f521c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Shaders\colored_2D">
+      <UniqueIdentifier>{b070751a-7663-4a85-8df5-f782b7d7e7e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="asset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\Assets\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>Source Files\Game_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_program.cpp">
+      <Filter>Source Files\Assets\Shader Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files\Assets\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="colored_2D_shader_program.cpp">
+      <Filter>Source Files\Assets\Shaders\colored_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon_mesh.cpp">
+      <Filter>Source Files\Assets\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Source Files\Game_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="asset.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="assets.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configuration.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="expectations.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene.h">
+      <Filter>Source Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Source Files\Assets\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>Source Files\Game_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Source Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_program.h">
+      <Filter>Source Files\Assets\Shader Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Source Files\Assets\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="colored_2D_shader_program.h">
+      <Filter>Source Files\Assets\Shaders\colored_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon_mesh.h">
+      <Filter>Source Files\Assets\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Source Files\Game_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\colored.2D.fragment_shader.glsl">
+      <Filter>Source Files\Assets\Shaders\colored_2D</Filter>
+    </None>
+    <None Include="Shaders\colored.2D.vertex_shader.glsl">
+      <Filter>Source Files\Assets\Shaders\colored_2D</Filter>
+    </None>
+  </ItemGroup>
+</Project>

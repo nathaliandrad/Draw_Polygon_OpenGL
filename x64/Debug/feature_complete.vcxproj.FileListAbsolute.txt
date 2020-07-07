@@ -1,0 +1,4 @@
+C:\Users\natha\OneDrive\Desktop\AdvancedGameEngine\tutorial_3\x64\Debug\feature_complete.exe
+C:\Users\natha\OneDrive\Desktop\AdvancedGameEngine\tutorial_3\x64\Debug\feature_complete.pdb
+C:\Users\natha\OneDrive\Desktop\AdvancedGameEngine\7384_Nathalia_PracticalDraw\x64\Debug\feature_complete.exe
+C:\Users\natha\OneDrive\Desktop\AdvancedGameEngine\7384_Nathalia_PracticalDraw\x64\Debug\feature_complete.pdb
